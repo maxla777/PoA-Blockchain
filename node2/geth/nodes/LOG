@@ -1,0 +1,69 @@
+=============== Apr 5, 2021 (PDT) ===============
+19:18:49.305368 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:18:49.310372 db@open opening
+19:18:49.311384 version@stat F·[] S·0B[] Sc·[]
+19:18:49.314366 db@janitor F·2 G·0
+19:18:49.314366 db@open done T·3.9937ms
+20:26:49.326814 memdb@flush N·37158 S·3MiB
+20:26:49.343793 memdb@flush created L0@3 N·37158 S·668KiB "loc..seq,v25":"version,v1"
+20:26:49.343793 version@stat F·[1] S·668KiB[668KiB] Sc·[0.25]
+20:26:49.345808 memdb@flush committed F·1 T·18.9939ms
+20:26:49.345808 journal@remove removed @1
+21:17:19.325759 memdb@flush N·36436 S·3MiB
+21:17:19.340900 memdb@flush created L0@5 N·36436 S·610KiB "n:\x00..ing,v41256":"n:\xff..ing,v45578"
+21:17:19.340900 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+21:17:19.342903 memdb@flush committed F·1 T·16.1442ms
+21:17:19.343923 journal@remove removed @2
+21:17:49.323530 table@compaction L0·2 -> L1·0 S·1MiB Q·73756
+21:17:49.354515 table@build created L1@6 N·10921 S·440KiB "loc..seq,v25":"version,v1"
+21:17:49.354515 version@stat F·[0 1] S·440KiB[0B 440KiB] Sc·[0.00 0.00]
+21:17:49.356514 table@compaction committed F-1 S-838KiB Ke·0 D·62673 T·32.9848ms
+21:17:49.357514 table@remove removed @5
+21:17:49.358514 table@remove removed @3
+22:07:49.327423 memdb@flush N·36469 S·3MiB
+22:07:49.342435 memdb@flush created L0@8 N·36469 S·608KiB "n:\x00..ing,v109791":"n:\xfe..ong,v77762"
+22:07:49.342435 version@stat F·[1 1] S·1MiB[608KiB 440KiB] Sc·[0.25 0.00]
+22:07:49.344435 memdb@flush committed F·1 T·17.0118ms
+22:07:49.345430 journal@remove removed @4
+22:08:26.727529 table@compaction L0·1 -> L1·1 S·1MiB Q·110481
+22:08:26.754535 table@build created L1@9 N·14905 S·600KiB "loc..seq,v25":"version,v1"
+22:08:26.754535 version@stat F·[0 1] S·600KiB[0B 600KiB] Sc·[0.00 0.01]
+22:08:26.755528 table@compaction committed F-1 S-448KiB Ke·0 D·32485 T·27.9985ms
+22:08:26.756529 table@remove removed @8
+22:08:26.756529 table@remove removed @6
+22:58:19.329225 memdb@flush N·36410 S·3MiB
+22:58:19.356250 memdb@flush created L0@11 N·36410 S·604KiB "n:\x00..ing,v143229":"n:\xff..ong,v130917"
+22:58:19.356250 version@stat F·[1 1] S·1MiB[604KiB 600KiB] Sc·[0.25 0.01]
+22:58:19.357245 memdb@flush committed F·1 T·28.0204ms
+22:58:19.358229 journal@remove removed @7
+22:58:42.523891 table@compaction L0·1 -> L1·1 S·1MiB Q·146531
+22:58:42.551911 table@build created L1@12 N·18528 S·748KiB "loc..seq,v25":"version,v1"
+22:58:42.552932 version@stat F·[0 1] S·748KiB[0B 748KiB] Sc·[0.00 0.01]
+22:58:42.553945 table@compaction committed F-1 S-456KiB Ke·0 D·32787 T·30.0535ms
+22:58:42.553945 table@remove removed @11
+22:58:42.553945 table@remove removed @9
+23:48:37.245670 memdb@flush N·36228 S·3MiB
+23:48:37.270698 memdb@flush created L0@14 N·36228 S·597KiB "n:\x00..ing,v147258":"n:\xff..ong,v160614"
+23:48:37.270698 version@stat F·[1 1] S·1MiB[597KiB 748KiB] Sc·[0.25 0.01]
+23:48:37.271725 memdb@flush committed F·1 T·25.0524ms
+23:48:37.271725 journal@remove removed @10
+23:48:52.537673 table@compaction L0·1 -> L1·1 S·1MiB Q·183057
+23:48:52.560689 table@build created L1@15 N·21810 S·881KiB "loc..seq,v25":"version,v1"
+23:48:52.560689 version@stat F·[0 1] S·881KiB[0B 881KiB] Sc·[0.00 0.01]
+23:48:52.561729 table@compaction committed F-1 S-465KiB Ke·0 D·32946 T·24.0561ms
+23:48:52.561729 table@remove removed @14
+23:48:52.562751 table@remove removed @12
+=============== Apr 6, 2021 (PDT) ===============
+00:38:19.326055 memdb@flush N·36239 S·3MiB
+00:38:19.341056 memdb@flush created L0@17 N·36239 S·599KiB "n:\x00..ing,v212326":"n:\xff..ing,v213741"
+00:38:19.341056 version@stat F·[1 1] S·1MiB[599KiB 881KiB] Sc·[0.25 0.01]
+00:38:19.343050 memdb@flush committed F·1 T·16.9941ms
+00:38:19.344043 journal@remove removed @13
+00:38:40.115763 table@compaction L0·1 -> L1·1 S·1MiB Q·219107
+00:38:40.145773 table@build created L1@18 N·25124 S·1015KiB "loc..seq,v25":"version,v1"
+00:38:40.145773 version@stat F·[0 1] S·1015KiB[0B 1015KiB] Sc·[0.00 0.01]
+00:38:40.146762 table@compaction committed F-1 S-465KiB Ke·0 D·32925 T·30.9984ms
+00:38:40.147780 table@remove removed @17
+00:38:40.147780 table@remove removed @15
+17:54:00.065173 db@close closing
+17:54:00.065173 db@close done T·0s
